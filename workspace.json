@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "keystone-app": "apps/keystone-app",
-    "next-app": "apps/next-app"
+    "next-app": "apps/next-app",
+    "test-lib": "libs/test-lib"
   }
 }

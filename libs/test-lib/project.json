@@ -1,0 +1,15 @@
+{
+  "root": "libs/test-lib",
+  "sourceRoot": "libs/test-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/test-lib/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

@@ -231,6 +231,8 @@ It looks at the default export, and expects a Keystone config object.
 
 You can find all the config options in our docs here: https://keystonejs.com/docs/apis/config
 */
+      // import { TestLib } from '@keystone-nx/test-lib';
+      // console.log(TestLib);
       // Look in the schema file for how we define our lists, and how users interact with them through graphql or the Admin UI
 
       // Keystone auth is configured separately - check out the basic auth setup we are importing from our auth file.

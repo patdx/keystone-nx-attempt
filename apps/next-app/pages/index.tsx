@@ -1,4 +1,5 @@
 import styles from './index.module.css';
+import { TestLib } from '@keystone-nx/test-lib';
 
 export function Index() {
   /*
@@ -8,6 +9,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <TestLib />
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
